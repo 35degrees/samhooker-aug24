@@ -37,7 +37,8 @@ body {
 
 @font-face {
 	font-family: 'High Alpine';
-	src: url('src/lib/fonts/HighAlpine.otf') format('opentype');
+	src: url('https://github.com/35degrees/samhooker-aug24/blob/main/src/lib/fonts/HighAlpine.otf')
+		format('opentype');
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.6;
@@ -45,7 +46,8 @@ body {
 }
 @font-face {
 	font-family: 'Bell Topo Sans';
-	src: url('src/lib/fonts/BellTopoSans-Regular.otf') format('opentype');
+	src: url('https://github.com/35degrees/samhooker-aug24/blob/main/src/lib/fonts/BellTopoSans-Regular.otf')
+		format('opentype');
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.6;
