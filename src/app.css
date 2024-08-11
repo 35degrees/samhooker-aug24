@@ -36,18 +36,18 @@ body {
 }
 
 @font-face {
-	font-family: 'High Alpine';
-	src: url('https://github.com/35degrees/samhooker-aug24/blob/main/src/lib/fonts/HighAlpine.otf')
-		format('opentype');
+	font-family: 'HighAlpine';
+	src: local('HighAlpine'), url('./lib/fonts/HighAlpine.otf') format('truetype');
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.6;
 	font-style: normal;
 }
+
 @font-face {
-	font-family: 'Bell Topo Sans';
-	src: url('https://github.com/35degrees/samhooker-aug24/blob/main/src/lib/fonts/BellTopoSans-Regular.otf')
-		format('opentype');
+	font-family: 'BellTopoSans';
+	src: local('BellTopoSans-Regular'),
+		url('./lib/fonts/BellTopoSans-Regular.otf') format('truetype');
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.6;
@@ -55,7 +55,7 @@ body {
 }
 
 h1 {
-	font-family: 'High Alpine', sans-serif;
+	font-family: 'HighAlpine', sans-serif;
 	text-decoration: none;
 	font-size: 8rem;
 	margin-bottom: -0.5rem;
@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Bell Topo Sans', sans-serif;
+	font-family: 'BellTopoSans', sans-serif;
 	font-size: 1.7rem;
 }
 
